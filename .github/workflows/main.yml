@@ -4,12 +4,7 @@ name: Changelog Action
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  push:
-    branches: [ release-1.15, release-1.16 ]
-    paths-ignore:
-      - '**.md'
-  pull_request:
-    branches: [ release-1.15, release-1.16 ]
+  push
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
